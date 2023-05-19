@@ -140,10 +140,10 @@
             </objects>
             <point key="canvasLocation" x="88" y="-44"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="9eS-B8-Uwi">
             <objects>
-                <viewController id="Nsk-pQ-BXG" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Nsk-pQ-BXG" customClass="ViewController2" customModule="_021a0519" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EUA-vH-ikc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -153,39 +153,42 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="back_arrow"/>
+                                <connections>
+                                    <action selector="goBack:" destination="Nsk-pQ-BXG" eventType="touchUpInside" id="wSF-8f-3MF"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Tu-X1-RT4">
-                                <rect key="frame" x="110" y="222" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="작사" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Tu-X1-RT4">
+                                <rect key="frame" x="110" y="222" width="30" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOh-mo-lg1">
-                                <rect key="frame" x="110" y="277" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="작곡" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOh-mo-lg1">
+                                <rect key="frame" x="110" y="277" width="30" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cT-3L-6nD">
-                                <rect key="frame" x="110" y="385" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="장르" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cT-3L-6nD">
+                                <rect key="frame" x="110" y="385.66666666666669" width="30" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61M-Of-dAZ">
-                                <rect key="frame" x="183" y="222" width="42" height="21"/>
+                                <rect key="frame" x="171" y="222" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AHr-R7-x9R">
-                                <rect key="frame" x="183" y="277" width="158" height="100"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AHr-R7-x9R">
+                                <rect key="frame" x="171" y="277" width="170" height="20.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fxr-vA-ia1">
-                                <rect key="frame" x="183" y="385" width="42" height="21"/>
+                                <rect key="frame" x="171" y="385.66666666666669" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -210,7 +213,7 @@
                             <constraint firstItem="VOh-mo-lg1" firstAttribute="firstBaseline" secondItem="AHr-R7-x9R" secondAttribute="firstBaseline" id="7Un-qJ-Rch"/>
                             <constraint firstItem="glI-3r-Maz" firstAttribute="top" secondItem="y1r-qg-zEw" secondAttribute="bottom" constant="10" id="8sF-0s-TJO"/>
                             <constraint firstItem="y1r-qg-zEw" firstAttribute="centerX" secondItem="EUA-vH-ikc" secondAttribute="centerX" id="AHz-1n-3rN"/>
-                            <constraint firstItem="Fxr-vA-ia1" firstAttribute="top" secondItem="AHr-R7-x9R" secondAttribute="bottom" constant="8" symbolic="YES" id="Bos-QO-M81"/>
+                            <constraint firstItem="Fxr-vA-ia1" firstAttribute="top" secondItem="AHr-R7-x9R" secondAttribute="bottom" constant="88" id="Bos-QO-M81"/>
                             <constraint firstItem="6Tu-X1-RT4" firstAttribute="baseline" secondItem="61M-Of-dAZ" secondAttribute="baseline" id="PAa-PG-HHL"/>
                             <constraint firstItem="61M-Of-dAZ" firstAttribute="leading" secondItem="AHr-R7-x9R" secondAttribute="leading" id="TFz-1A-vEL"/>
                             <constraint firstItem="61M-Of-dAZ" firstAttribute="leading" secondItem="6Tu-X1-RT4" secondAttribute="trailing" constant="31" id="TQC-fK-Tt6"/>
@@ -221,12 +224,20 @@
                             <constraint firstItem="AHr-R7-x9R" firstAttribute="leading" secondItem="Fxr-vA-ia1" secondAttribute="leading" id="bxH-pf-tV4"/>
                             <constraint firstItem="XHr-Dn-MdT" firstAttribute="trailing" secondItem="AHr-R7-x9R" secondAttribute="trailing" constant="52" id="hQj-oL-Dhm"/>
                             <constraint firstItem="6Tu-X1-RT4" firstAttribute="leading" secondItem="VOh-mo-lg1" secondAttribute="leading" id="hzh-3k-K4O"/>
-                            <constraint firstItem="5cT-3L-6nD" firstAttribute="top" secondItem="VOh-mo-lg1" secondAttribute="bottom" constant="87" id="lFY-oJ-yt5"/>
+                            <constraint firstItem="5cT-3L-6nD" firstAttribute="top" secondItem="VOh-mo-lg1" secondAttribute="bottom" constant="88.333333333333314" id="lFY-oJ-yt5"/>
                             <constraint firstItem="6Tu-X1-RT4" firstAttribute="trailing" secondItem="VOh-mo-lg1" secondAttribute="trailing" id="s1G-gA-ELk"/>
                             <constraint firstItem="glI-3r-Maz" firstAttribute="centerX" secondItem="EUA-vH-ikc" secondAttribute="centerX" id="x8n-vm-De9"/>
                             <constraint firstItem="VOh-mo-lg1" firstAttribute="top" secondItem="6Tu-X1-RT4" secondAttribute="bottom" constant="34" id="xMb-M6-LjV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="genreLabel" destination="Fxr-vA-ia1" id="lJr-R2-2XF"/>
+                        <outlet property="goBackButton" destination="i2E-lg-Ooi" id="mrb-KV-Z7O"/>
+                        <outlet property="lyricistLabel" destination="61M-Of-dAZ" id="yQZ-zu-8AL"/>
+                        <outlet property="melodizerLabel" destination="AHr-R7-x9R" id="0fI-ZA-KIS"/>
+                        <outlet property="singerLabel" destination="glI-3r-Maz" id="6N8-6Y-mjm"/>
+                        <outlet property="titleLabel" destination="y1r-qg-zEw" id="sER-RL-hRG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ek3-H1-2sd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

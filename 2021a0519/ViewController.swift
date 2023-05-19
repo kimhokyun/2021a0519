@@ -110,7 +110,11 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        let id = self.chartList[indexPath.row].id
+        let vc = storyboard?.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
+        vc.id = id
+        self.navigationController?.pushViewController(vc, animated: true)
+        self.present(vc, animated: true)
     }
 
 }
